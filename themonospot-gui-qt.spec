@@ -9,8 +9,6 @@ Patch0: themonospot-gui-qt-0.1.3-drop-invalide-desktop-entry.patch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL: http://www.integrazioneweb.com/themonospot
 
-#BuildArch : noarch
-
 BuildRequires: mono-devel
 BuildRequires: qyoto-devel
 BuildRequires: themonospot-base-devel
@@ -27,7 +25,7 @@ graphic frontend to use themonospot base component and his plugins.
 
 %build
 %configure2_5x
-%make
+make
 
 %install
 rm -fr %{buildroot}
