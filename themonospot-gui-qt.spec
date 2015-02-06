@@ -4,7 +4,7 @@
 Summary: Qt application to use themonospot (multimedia files parser/editor)
 Name:    themonospot-gui-qt
 Version: 0.1.3
-Release: 4
+Release: 5
 License: GPLv2
 Group:   Video
 Source:  http://www.integrazioneweb.com/repository/SOURCES/themonospot-gui-qt-%{version}.tar.gz
