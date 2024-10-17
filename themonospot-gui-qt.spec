@@ -9,7 +9,7 @@ License: GPLv2
 Group:   Video
 Source:  http://www.integrazioneweb.com/repository/SOURCES/themonospot-gui-qt-%{version}.tar.gz
 Patch0:  themonospot-gui-qt-0.1.3-drop-invalide-desktop-entry.patch
-Url:     http://www.integrazioneweb.com/themonospot
+Url:     https://www.integrazioneweb.com/themonospot
 
 BuildRequires: mono-devel
 BuildRequires: qyoto-devel
