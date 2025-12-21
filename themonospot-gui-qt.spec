@@ -11,6 +11,11 @@ Source:  http://www.integrazioneweb.com/repository/SOURCES/themonospot-gui-qt-%{
 Patch0:  themonospot-gui-qt-0.1.3-drop-invalide-desktop-entry.patch
 Url:     https://www.integrazioneweb.com/themonospot
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires: mono-devel
 BuildRequires: qyoto-devel
 BuildRequires: themonospot-base-devel
